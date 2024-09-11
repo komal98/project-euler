@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce2f830e-daf3-4f48-8cae-0e2b9b7d6d3f" name="Changes" comment="Adding Problem 1">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/wayne.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EvenFibbonacciNumbersProblem002.java" afterDir="false" />
+    <list default="true" id="ce2f830e-daf3-4f48-8cae-0e2b9b7d6d3f" name="Changes" comment="Adding Problem 2">
+      <change afterPath="$PROJECT_DIR$/src/LargestPrimeFactorProblem003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryHelperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +48,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EvenFibbonacciNumbersProblem002.executor": "Run",
+    "Application.LargestPrimeFactorProblem003.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.EulerTest.executor": "Run",
+    "JUnit.LibraryHelperTest.executor": "Run",
+    "OverrideImplement.generate.javadoc": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -91,6 +90,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding Problem 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Problem 1" />
+    <MESSAGE value="Adding Problem 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Problem 2" />
   </component>
 </project>
