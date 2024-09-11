@@ -12,4 +12,9 @@ public class EulerTest {
     public void testEvenFibbonacciNumbersProblem002(){
         assertEquals("4613732", new EvenFibbonacciNumbersProblem002().run());
     }
+
+    @Test
+    public void testLargestPrimeFactorProblem003(){
+        assertEquals("6857", new LargestPrimeFactorProblem003().run());
+    }
 }
