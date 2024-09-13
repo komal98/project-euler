@@ -23,4 +23,9 @@ public class EulerTest {
         assertEquals("906609", new LargestPalindromeProductProblem004().run());
     }
 
+    @Test
+    public void testSmallestMultipleProblem005(){
+        assertEquals("232792560", new SmallestMultipleProblem005().run());
+    }
+
 }
