@@ -1,8 +1,43 @@
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class LibraryHelperTest {
+
+    @Test
+    public void testReverse(){
+        assertEquals("", LibraryHelper.reverse(""));
+        assertEquals("a", LibraryHelper.reverse("a"));
+        assertEquals("ba", LibraryHelper.reverse("ab"));
+        assertEquals("001", LibraryHelper.reverse("100"));
+        assertEquals("a0a", LibraryHelper.reverse("a0a"));
+    }
+
+    @Test
+    public void testIsPalindromeString(){
+        assertTrue(LibraryHelper.isPalindrome(""));
+        assertTrue(LibraryHelper.isPalindrome("a"));
+        assertTrue(LibraryHelper.isPalindrome("aaa"));
+        assertTrue(LibraryHelper.isPalindrome("malayalam"));
+        assertFalse(LibraryHelper.isPalindrome("ab"));
+        assertFalse(LibraryHelper.isPalindrome("aa0aa1"));
+
+    }
+
+    @Test
+    public void testIsPalindromeInt(){
+        assertTrue(LibraryHelper.isPalindrome(0));
+        assertTrue(LibraryHelper.isPalindrome(010));
+        assertTrue(LibraryHelper.isPalindrome(9999));
+        assertFalse(LibraryHelper.isPalindrome(100));
+        assertTrue(LibraryHelper.isPalindrome(5665));
+        assertTrue(LibraryHelper.isPalindrome(2147447412));
+        assertFalse(LibraryHelper.isPalindrome(12));
+        assertFalse(LibraryHelper.isPalindrome(43));
+        assertFalse(LibraryHelper.isPalindrome(220));
+        assertFalse(LibraryHelper.isPalindrome(1010));
+        assertFalse(LibraryHelper.isPalindrome(2147483647));
+    }
 
     @Test
     public void testSqrtInt() {

@@ -17,4 +17,10 @@ public class EulerTest {
     public void testLargestPrimeFactorProblem003(){
         assertEquals("6857", new LargestPrimeFactorProblem003().run());
     }
+
+    @Test
+    public void testLargestPalindromeProductProblem004(){
+        assertEquals("906609", new LargestPalindromeProductProblem004().run());
+    }
+
 }
