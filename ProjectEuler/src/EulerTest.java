@@ -53,4 +53,9 @@ public class EulerTest {
         assertEquals("142913828922", new SumOfPrimesProblem010().run());
     }
 
+    @Test
+    public void testLargestProductInAGridProblem011(){
+        assertEquals("70600674", new LargestProductInAGridProblem011().run());
+    }
+
 }
