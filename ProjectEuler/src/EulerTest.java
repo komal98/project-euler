@@ -43,4 +43,9 @@ public class EulerTest {
         assertEquals("23514624000", new LargestProductInSeriesProblem008().run());
     }
 
+    @Test
+    public void testSpecialPythagoreanTripletProblem009(){
+        assertEquals("31875000", new SpecialPythagoreanTripletProblem009().run());
+    }
+
 }
