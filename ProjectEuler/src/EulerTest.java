@@ -38,4 +38,9 @@ public class EulerTest {
         assertEquals("104743",new Prime10001Problem007().run());
     }
 
+    @Test
+    public void testLargestProductSeriesProblem008(){
+        assertEquals("23514624000", new LargestProductInSeriesProblem008().run());
+    }
+
 }
