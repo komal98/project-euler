@@ -28,4 +28,14 @@ public class EulerTest {
         assertEquals("232792560", new SmallestMultipleProblem005().run());
     }
 
+    @Test
+    public void testSumSquareDifferenceProblem006(){
+        assertEquals("25164150", new SumSquareDifferenceProblem006().run());
+    }
+
+    @Test
+    public void testPrime10001Problem007(){
+        assertEquals("104743",new Prime10001Problem007().run());
+    }
+
 }

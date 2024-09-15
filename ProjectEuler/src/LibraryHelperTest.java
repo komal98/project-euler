@@ -39,8 +39,28 @@ public class LibraryHelperTest {
         assertFalse(LibraryHelper.isPalindrome(2147483647));
     }
 
-    @Test
-    public void testSqrtInt() {
+    @Test public void testSqrtLong() {
+        assertEquals(0L, LibraryHelper.sqrt(0L));
+        assertEquals(1L, LibraryHelper.sqrt(1L));
+        assertEquals(1L, LibraryHelper.sqrt(2L));
+        assertEquals(1L, LibraryHelper.sqrt(3L));
+        assertEquals(2L, LibraryHelper.sqrt(4L));
+        assertEquals(2L, LibraryHelper.sqrt(5L));
+        assertEquals(2L, LibraryHelper.sqrt(8L));
+        assertEquals(3L, LibraryHelper.sqrt(9L));
+        assertEquals(3L, LibraryHelper.sqrt(10L));
+        assertEquals(18L, LibraryHelper.sqrt(360L));
+        assertEquals(19L, LibraryHelper.sqrt(361L));
+        assertEquals(19L, LibraryHelper.sqrt(362L));
+        assertEquals(256L, LibraryHelper.sqrt(65536L));
+        assertEquals(32768L, LibraryHelper.sqrt(1073741824L));
+        assertEquals(46340L, LibraryHelper.sqrt(2147483648L));
+        assertEquals(2645751L, LibraryHelper.sqrt(7000000000000L));
+        assertEquals(3037000499L, LibraryHelper.sqrt(9223372036854775807L));
+    }
+
+
+    @Test public void testSqrtInt() {
         assertEquals(0, LibraryHelper.sqrt(0));
         assertEquals(1, LibraryHelper.sqrt(1));
         assertEquals(1, LibraryHelper.sqrt(2));
@@ -56,5 +76,29 @@ public class LibraryHelperTest {
         assertEquals(256, LibraryHelper.sqrt(65536));
         assertEquals(32768, LibraryHelper.sqrt(1073741824));
         assertEquals(46340, LibraryHelper.sqrt(2147483647));
+    }
+
+    @Test public void testIsPrime() {
+        assertFalse(LibraryHelper.isPrime(0));
+        assertFalse(LibraryHelper.isPrime(1));
+        assertTrue(LibraryHelper.isPrime(2));
+        assertTrue(LibraryHelper.isPrime(3));
+        assertFalse(LibraryHelper.isPrime(4));
+        assertTrue(LibraryHelper.isPrime(5));
+        assertFalse(LibraryHelper.isPrime(6));
+        assertTrue(LibraryHelper.isPrime(7));
+        assertFalse(LibraryHelper.isPrime(8));
+        assertFalse(LibraryHelper.isPrime(9));
+        assertFalse(LibraryHelper.isPrime(10));
+        assertTrue(LibraryHelper.isPrime(11));
+        assertFalse(LibraryHelper.isPrime(12));
+        assertTrue(LibraryHelper.isPrime(13));
+        assertFalse(LibraryHelper.isPrime(14));
+        assertFalse(LibraryHelper.isPrime(15));
+        assertFalse(LibraryHelper.isPrime(16));
+        assertTrue(LibraryHelper.isPrime(17));
+        assertFalse(LibraryHelper.isPrime(18));
+        assertTrue(LibraryHelper.isPrime(19));
+        assertFalse(LibraryHelper.isPrime(20));
     }
 }
