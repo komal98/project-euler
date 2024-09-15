@@ -58,4 +58,9 @@ public class EulerTest {
         assertEquals("70600674", new LargestProductInAGridProblem011().run());
     }
 
+    @Test
+    public void testHighlyDivisibleTriangularNumberProblem012(){
+        assertEquals("76576500", new HighlyDivisibleTriangularNumberProblem012().run());
+    }
+
 }
