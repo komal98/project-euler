@@ -48,4 +48,9 @@ public class EulerTest {
         assertEquals("31875000", new SpecialPythagoreanTripletProblem009().run());
     }
 
+    @Test
+    public void testSumOfPrimesProblem010(){
+        assertEquals("142913828922", new SumOfPrimesProblem010().run());
+    }
+
 }
