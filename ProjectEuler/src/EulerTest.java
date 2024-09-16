@@ -63,4 +63,9 @@ public class EulerTest {
         assertEquals("76576500", new HighlyDivisibleTriangularNumberProblem012().run());
     }
 
+    @Test
+    public void testLargeSumProblem0013(){
+        assertEquals("5537376230", new LargeSumProblem0013().run());
+    }
+
 }
